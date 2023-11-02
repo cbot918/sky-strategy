@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.etch-a-sketch-grid {
+  display: grid;
+  grid-template-rows: repeat(10,50px);
+  grid-template-columns: repeat(10,50px);
+  grid-auto-rows: 50px;
+  width:500px; /* 30 x 16 */
+  height:500px; /* 30 x 16 */
+  border: solid 1px grey;
+}
+
+.cell {
+  border: solid rgb(230, 229, 229) 1px;
+  height: 50px;
+  cursor: pointer;
+  /*     width: 30px; */
+  /* background-color: rgb(243, 243, 243); */
+}
+
+.border-black {
+  border: 1px solid black; /* Set the border color to black */
+}

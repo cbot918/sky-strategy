@@ -1,0 +1,28 @@
+<mxfile host="65bd71144e">
+    <diagram id="B2VbY8F-m4kkRwROAy6u" name="Page-1">
+        <mxGraphModel dx="767" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="建築&lt;br&gt;1. 大廳&lt;br&gt;2. 農田&lt;br&gt;3. 鐵礦&lt;br&gt;4. 木材&lt;br&gt;5. 酒館&lt;br&gt;6. 步兵營&lt;br&gt;7. 騎兵營" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="60" width="120" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="武將&lt;br&gt;1. 技能&lt;br&gt;2. 數值&lt;br&gt;3. 等級&lt;br&gt;4. 格子&lt;br&gt;5. 天賦&lt;br&gt;6. 成長性&lt;br&gt;7. 裝備&lt;br&gt;8. 寵物" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="60" width="120" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="野地&lt;br&gt;1. 移動距離時間&lt;br&gt;2. 星數強度&lt;br&gt;3. 種類相剋&lt;br&gt;4. 掉寶&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="60" width="120" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="道具&lt;br&gt;1. 裝備&lt;br&gt;2. 書&lt;br&gt;3. 資源&lt;br&gt;4. 寵物" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="60" width="120" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="兵種&lt;br&gt;1. 移動速度&lt;br&gt;2. 攻擊數值&lt;br&gt;3. 防禦數值&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="60" width="120" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="副本&lt;br&gt;1. 關卡數&lt;br&gt;2. 王關&lt;br&gt;3. 強度&lt;br&gt;4. 掉寶&lt;br&gt;5. 敵人兵種數值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="60" width="120" height="230" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

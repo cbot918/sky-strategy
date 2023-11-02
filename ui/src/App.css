@@ -1,0 +1,52 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.title {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  font-size: 70px;
+  background-color: lightblue;
+}
+
+.main {
+  flex: 8;
+  background-color: lightgray;
+}
+
+.bottom {
+  flex: 1;
+  background-color: lightblue;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar div {
+
+  color: rgb(0, 0, 0)
+}
+
+.btn {
+  font-size: 70px;
+  text-decoration:none;
+  color: black;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: grey;
+}
