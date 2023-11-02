@@ -13,14 +13,13 @@ import (
 
 func main() {
 	app := fiber.New()
-	// Middleware: CORS
+
 	app.Use(cors.New())
-
-	// Middleware: Logger
 	app.Use(logger.New())
-
-	// Middleware: Recover
 	app.Use(recover.New())
+
+	app.Static("/", "./ui/dist")
+
 	app.Get("/", func(c *fiber.Ctx) error {
 		return c.SendString("Hello, World!")
 	})
